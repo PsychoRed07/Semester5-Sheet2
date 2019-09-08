@@ -13,7 +13,7 @@ namespace Semester5_Sheet2.Views
         {
             return View();
         }
-
+        // GET: Loan 
         [HttpGet]
         public ActionResult Loan(double? intinv,double? intrate, double? years)
         {
