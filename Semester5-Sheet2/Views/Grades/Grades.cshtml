@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Grades";
+}
+
+<h2>Grades</h2>
+
+<form action="Grades">
+    Test 1 : <input type="number" min=0 max=100 name="t1" />
+    Test 2 : <input type="number" min=0 max=100 name="t2" />
+    Test 3 : <input type="number" min=0 max=100 name="t3" />
+
+    <br>
+    <input type="submit" name="Submit !" value="Submit !" />
+    <h4 >
+        @ViewData["Grade"] <b @ViewData["Color"]> @ViewData["final"] </b>
+    </h4>
+</form>
+

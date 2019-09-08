@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Loan";
+}
+
+<h2>Loan</h2>
+
+<form action="Loan">
+    Initial Investement : <input type="number" name="intinv" />
+    Interest Rate : <input type="number" name="intrate" />
+    Number of years : <input type="number" name="years" />
+
+    <br>
+    <input type="submit" name="Submit !" value="Submit !" />
+    <h4>
+    @ViewData["inv"]
+    </h4>
+</form>
+
